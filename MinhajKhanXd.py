@@ -1557,6 +1557,4 @@ def approval():
       time.sleep(1)
       approval()
   except:
-    sys.exit()
- 
-Minhaj()
+    sys.exit() 
