@@ -1465,7 +1465,7 @@ def fcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}                                    
-                        header_freefb = {'authority': 'free.facebook.com',
+                        header_freefb = {'authority': 'm.facebook.com'
  
 			'upgrade-insecure-requests': '1',
  
