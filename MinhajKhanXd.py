@@ -1070,7 +1070,7 @@ for xd in range(10000):
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
-        aa='Mozilla/5.0 (Linux; Android 8.1.0;'
+    aa='Mozilla/5.0 (Linux; Android 8.1.0;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['CPH1909 Build/O11019 )'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -1126,7 +1126,7 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
  
-def rehan():
+def Minhaj():
 	os.system('clear')
 	print(logo)
 	print('[1] RANDOM PAK CLONING')
@@ -1151,7 +1151,7 @@ def rehan():
 	else:
 		print('[•] CHOOSE CORRECT OPTION')
 		time.sleep(2)
-		rehan()
+		Minhaj()
  
 def menu():
 	os.system('clear')
@@ -1175,7 +1175,7 @@ def menu():
 	elif opt =='5':
 		ff()
 	elif opt =='0':
-		rehan()
+		Minhaj()
 	else:
 		print('\n\033[1;37m[•] Choose valid option\033[0;97m')
 		time.sleep(2)
@@ -1214,7 +1214,7 @@ def svn_digit():
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	input('Press Enter To Go Back To Menu')
-	rehan()
+	Minhaj()
 	
 	#____
  
@@ -1249,7 +1249,7 @@ def ali_khan():
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	input('Press Inter To Back Menu')
-	rehan()
+	Minhaj()
  
 #____________
  
@@ -1290,7 +1290,7 @@ def malik_baloch():
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	input('Press Inter To Back Menu')
-	rehan()
+	Minhaj()
  
 #____
  
@@ -1325,7 +1325,7 @@ def pubg():
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	input('Press Enter To Go Back To Menu')
-	rehan()
+	Minhaj()
  
 #____
  
@@ -1360,7 +1360,7 @@ def ff():
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	input('Press Enter To Go Back To Menu')
-	rehan()
+	Minhaj()
  
 #___________
  
@@ -1395,7 +1395,7 @@ def bd():
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	input('Press Inter To Back Menu')
-	rehan()
+	Minhaj()
  
 def chos():
     user=[]
@@ -1443,7 +1443,7 @@ def chos():
             manshera.submit(fcrack,uid,pwx,tl)
     print('Crack process has been completed')
     print('Ids saved in ok.txt,cp.txt')
-    rehan()
+    Minhaj()
 #_____
 def fcrack(uid,pwx,tl):
     #print(user)
@@ -1541,7 +1541,7 @@ def approval():
       print("\33[1;32mYOUR KEY IS APPROVED.")
       msg = str(os.geteuid())
       time.sleep(0.5)
-      rehan()
+      Minhaj()
       pass
     else:
       print("YOUR KEY : "+id)
