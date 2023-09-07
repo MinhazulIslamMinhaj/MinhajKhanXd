@@ -1259,7 +1259,7 @@ def Minhaj_Khan():
 
 #_______
 
-def Minhaj-Khan()
+def Minhaj_Khan():
 	user=[]
 	os.system('clear')
 	print(logo)
