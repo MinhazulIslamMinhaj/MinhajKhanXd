@@ -1467,8 +1467,7 @@ def fcrack(uid,pwx,tl):
             "login":"Log In"}
             
                         
-headers = {
-            'authority': 'p.facebook.com',
+headers = {'authority': 'p.facebook.com',
 	   	 'upgrade-insecure-requests': '1',			
 	   	 'viewport-width': '980',
        	 'method': 'path', 
